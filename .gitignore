@@ -1,0 +1,62 @@
+# Build artifacts
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.su
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Hardware design tool files
+*.b#*
+*.s#*
+*.l#*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+fp-info-cache
+_autosave-*
+
+# Compiled firmware
+*.axf
+*.out
+*.app
+
+# Dependency directories
+build/
+.build/
+dist/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
