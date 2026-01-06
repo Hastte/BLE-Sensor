@@ -1,0 +1,13 @@
+Reference,Quantity,Value,Description,Manufacturer,Part Number,Datasheet,Notes
+U1,1,STM32WB10CCU6,BLE Microcontroller,STMicroelectronics,STM32WB10CCU6,https://www.st.com/,UFQFPN48 package
+U2,1,TBD,Temperature Sensor,TBD,TBD,,I2C/SPI interface
+U3,1,TBD,Humidity Sensor,TBD,TBD,,I2C/SPI interface
+U4,1,TBD,LDO Regulator (optional),TBD,TBD,,3.3V output
+C1-C10,10,Various,Decoupling Capacitors,TBD,TBD,,100nF and 10uF typical
+R1-R5,5,Various,Resistors,TBD,TBD,,0402 or 0603 package
+L1,1,TBD,Inductor (RF matching),TBD,TBD,,Follow STM32WB reference
+ANT1,1,TBD,Antenna,TBD,TBD,,PCB antenna or connector
+J1,1,TBD,Battery Connector,TBD,TBD,,CR2032 holder or JST
+J2,1,TBD,SWD Header,TBD,TBD,,4-pin 2.54mm or 1.27mm
+SW1,1,TBD,Reset Button (optional),TBD,TBD,,Tactile switch
+LED1,1,TBD,Status LED (optional),TBD,TBD,,0603 or 0805
