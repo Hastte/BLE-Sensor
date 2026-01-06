@@ -5,19 +5,17 @@ This directory contains all hardware design files for the BLE-Sensor board.
 ## Directory Structure
 - `pcb/` - PCB layout files and Gerber files
 - `schematics/` - Circuit schematics and design files
-
 ## Hardware Specifications
 
 ### Main Components
 - **MCU**: STM32WB10 - BLE-enabled microcontroller
-- **Sensors**: 
-  - Temperature sensor (TBD)
-  - Humidity sensor (TBD)
+- **Sensor**: HDC1080 - Temperature & Humidity sensor
 - **Power Supply**: Battery-powered with voltage regulation
-- **Connectivity**: BLE antenna (PCB or external)
-
+- **Connectivity**:
+  - USB-C Port: Battery charging & Flashing
+  - JTAG Connector: Flashing & Debugging  
 ### PCB Specifications
-- **Layers**: TBD (typically 2 or 4 layers)
+- **Layers**: 2
 - **Dimensions**: TBD
 - **PCB Technology**: TBD
 
