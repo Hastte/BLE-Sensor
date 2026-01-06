@@ -40,15 +40,3 @@ Gerber files for PCB manufacturing will be placed in the `pcb/gerbers/` director
 
 ### Assembly
 Assembly instructions and pick-and-place files will be provided for manufacturing.
-
-## Getting Started
-
-1. Open the schematic files in your preferred EDA tool
-2. Review the circuit design
-3. Check the PCB layout
-4. Generate manufacturing files (Gerbers, BOM, etc.)
-
-## Notes
-- Always verify component footprints before ordering PCBs
-- Check power supply voltage levels
-- Verify antenna design and RF layout guidelines for BLE operation
