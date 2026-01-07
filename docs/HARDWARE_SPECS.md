@@ -10,28 +10,44 @@
 - **RAM**: 48 KB
 - **Package**: UFQFPN48
 
-### Sensors
-#### Temperature Sensor
-- **Type**: Digital temperature sensor
-- **Range**: -40°C to +85°C
-- **Accuracy**: ±0.5°C
-- **Interface**: I2C or SPI
-
-#### Humidity Sensor
-- **Type**: Digital humidity sensor
-- **Range**: 0% to 100% RH
-- **Accuracy**: ±3% RH
-- **Interface**: I2C or SPI
+### Sensor
+#### Temperature & Humidity Sensor
+- **Model**: TI HDC1080
+- **Range**: -20°C to +70°C
+- **Temperature Accuracy**: ±0.5°C
+- **Humidity Accuracy**: ±2%RH
+- **Interface**: I2C
 
 ### Power Supply
-- **Input Voltage**: 3.0V - 3.6V
-- **Battery**: CR2032 coin cell or similar
-- **Regulator**: LDO regulator (if needed)
-- **Current Consumption**:
-  - Active mode: < 10 mA
-  - Sleep mode: < 10 μA
-  - Stop mode: < 5 μA
+#### Battery
+ - **Type**: Single 3.7V LiPo Battery 
+ - **Connectivity**: PHR-2 ; 2 PinFemale Housing 
+#### Charging IC
+- **Model**: TP4054
+- **Input Voltage**: 4.2V - 6.5V
+- **Charging Voltage**: 4.2V ±1%
+- **Maximum Charging Current**: 500mA
 
+#### Fuel Gauge
+- **Model**: STC3115
+- **Operating Voltage**: 2.7V - 4.5V
+- **Voltage Accuracy Measurement**: ±0.25%
+- **ADC Current Accuracy**: ±0.5%
+- **Current Consumption**: 100μA
+- **Connectivity**: I2C
+
+#### Power Path 
+- **Output Voltage**: 
+   - **USB-C connected**: V_USB-0.2 V
+   - **If USB-C NOT connected**: V_BAT
+
+#### Regulator
+- **Model**: TPS6303
+- **Type**: Buck-Boost Converter
+- **Input Voltage**: 1.8V - 5.5V
+- **Output Voltage**: 3.3V ±1%
+- **Maximum Output Current**: 300mA
+- **Minimum/Maximum Efficiency**: 65%/90%
 ### BLE Radio
 - **Frequency**: 2.4 GHz ISM band
 - **Output Power**: Up to +6 dBm
