@@ -1,5 +1,5 @@
 # BLE-Sensor
-A low-power BLE humidity and temperature sensor board based on STM32WB10
+A low-power BLE humidity and temperature sensor board based on the STM32WB10 Microcontroller
 
 ## Overview
 This repository contains the complete design files for a Bluetooth Low Energy (BLE) enabled environmental sensor board. The sensor measures temperature and humidity and transmits data wirelessly via BLE.
@@ -16,12 +16,13 @@ BLE-Sensor/
 ├── hardware/          # Hardware design files
 │   ├── pcb/          # PCB layout files
 │   └── schematics/   # Circuit schematics
+│   └── datasheets/   # Datasheets of components
+│   └── library/      # Project specific symbols/footprints
 ├── firmware/         # Embedded firmware
 │   ├── src/          # Source files
 │   └── inc/          # Header files
 ├── docs/             # Documentation
 │   └── images/       # Images and diagrams
-├── tools/            # Utility scripts and tools
 ├── LICENSE           # License information
 └── README.md         # This file
 ```
@@ -29,7 +30,7 @@ BLE-Sensor/
 ## Getting Started
 
 ### Hardware
-The hardware design files are located in the `hardware/` directory. See the [Hardware README](hardware/README.md) for more information on the PCB design and bill of materials.
+The hardware design files are located in the `hardware/` directory. See the [Hardware README](hardware/README.md) for more information on the choice of compononents, PCB design and bill of materials.
 
 ### Firmware
 The firmware source code is in the `firmware/` directory. See the [Firmware README](firmware/README.md) for build instructions and dependencies.
