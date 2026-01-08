@@ -3,6 +3,8 @@
 This directory contains all hardware design files for the BLE-Sensor board.
 
 ## Directory Structure
+- `datasheets/` - Datasheets files
+- `library/` - Project specific libraries
 - `pcb/` - PCB layout files and Gerber files
 - `schematics/` - Circuit schematics and design files
 ## Hardware Specifications
